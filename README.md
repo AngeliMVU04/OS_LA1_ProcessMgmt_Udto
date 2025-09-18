@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # OS_LA1_ProcessMgmt_Udto
 
 ## 🛠️ BUILD INSTRUCTIONS (VS Code with MinGW)
@@ -52,3 +53,6 @@ Stop-Process -Id <PID>
 - Normal: child exits cleanly, parent receives exit code.
 - Forced: child is killed abruptly, may affect parent’s behavior.
 - Reinforces manual process control and observation using PowerShell.
+=======
+# OS_LA1_ProcessMgmt_Udto
+>>>>>>> fce7546a471eb97f11b2e3d1c1fa9d4ac784e9bf
