@@ -55,4 +55,3 @@ Stop-Process -Id <PID>
 - Reinforces manual process control and observation using PowerShell.
 =======
 # OS_LA1_ProcessMgmt_Udto
->>>>>>> fce7546a471eb97f11b2e3d1c1fa9d4ac784e9bf
