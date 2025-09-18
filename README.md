@@ -5,7 +5,19 @@
 - MinGW installed and added to your system PATH
 - Project folder structure:
 
-OS_LA1_ProcessMgmt_Udto/ ├── src/           # Contains .c source files ├── bin/           # Destination for compiled .exe files ├── Screenshot/    # Captures of output and PowerShell monitoring └── README.md      # Documentation
+
+
+
+
+
+
+
+
+
+
+
+
+### TASK NOTES
 
 
 ### Task A – Creating a Single Child
@@ -13,20 +25,20 @@ OS_LA1_ProcessMgmt_Udto/ ├── src/           # Contains .c source files ├
 - The parent prints its own PID and waits for the child to finish.
 - child_echo.c receives the parent PID as an argument and prints both its own PID and the parent’s.
 - The parent then prints the child’s exit code.
-- ✅ Confirms basic parent-child process creation and communication.
+- Confirms basic parent-child process creation and communication.
 
 
 ### Task B – Creating Two Children
 - create_two_children.c spawns two child processes in parallel.
 - Each child runs child_echo.exe and reports its PID.
 - The parent waits for both children to finish using either WaitForMultipleObjects() or two separate waits.
-- ✅ Demonstrates concurrent child creation and synchronization.
+- Demonstrates concurrent child creation and synchronization.
 
 
 ### Task C – Simulating exec()
 - replace_sim.c launches a new process (e.g., cmd /c dir) and exits with the same code as that process.
 - Mimics the behavior of exec() by replacing the parent’s role with the child’s output.
-- ✅ Shows how a parent can delegate execution and propagate exit status.
+- Shows how a parent can delegate execution and propagate exit status.
 
 
 ### Task D – Managing Processes in PowerShell
@@ -37,5 +49,4 @@ Stop-Process -Id <PID>
 - Compare normal vs forced termination:
 - Normal: child exits cleanly, parent receives exit code.
 - Forced: child is killed abruptly, may affect parent’s behavior.
-- ✅ Reinforces manual process control and observation using PowerShell.
-📸 See Screenshot: PowerShell showing process listing and manual termination using Stop-Process.
+- Reinforces manual process control and observation using PowerShell.
