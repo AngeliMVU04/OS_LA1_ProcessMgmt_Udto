@@ -8,20 +8,24 @@
 - MinGW installed and added to your system PATH
 - Project folder structure:
 
+
 ### SCREENSHOTS
 
+### Task A – Single Child Process
+![Task A Output](Screenshot/TASK%20A.png)
 
+### Task B – Two Child Processes
+![Task B Output](Screenshot/TASK%20B.png)
 
+### Task C – Simulating exec()
+![Task C Output](Screenshot/TASK%20C.png)
 
-
-
-
-
-
+### Task D – PowerShell Process Management
+![Task D1 Output](Screenshot/TASK%20D1.png)
+![Task D2 Output](Screenshot/TASK%20D2.png)
 
 
 ### TASK NOTES
-
 
 ### Task A – Creating a Single Child
 - create_basic.c launches child_echo.exe using CreateProcess().
@@ -53,5 +57,5 @@ Stop-Process -Id <PID>
 - Normal: child exits cleanly, parent receives exit code.
 - Forced: child is killed abruptly, may affect parent’s behavior.
 - Reinforces manual process control and observation using PowerShell.
-=======
+
 # OS_LA1_ProcessMgmt_Udto
