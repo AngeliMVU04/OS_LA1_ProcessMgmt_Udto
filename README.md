@@ -1,15 +1,20 @@
-<<<<<<< HEAD
 # OS_LA1_ProcessMgmt_Udto
 
-## 🛠️ BUILD INSTRUCTIONS (VS Code with MinGW)
+##  BUILD INSTRUCTIONS (VS Code with MinGW)
 
 ### Prerequisites
 - Visual Studio Code installed
-- MinGW installed and added to your system PATH
-- Project folder structure:
+- MinGW-w64 installed and added to your system PATH
+- C/C++ extension installed in VS Code (ms-vscode.cpptools)
+- Folder structure:
+    - src/           # C source files
+    - bin/           # Compiled executables
+    - Screenshot/    # Output screenshots
+    - README.md      # Documentation
 
 
-### SCREENSHOTS
+
+## SCREENSHOTS
 
 ### Task A – Single Child Process
 ![Task A Output](Screenshot/TASK%20A.png)
@@ -25,7 +30,7 @@
 ![Task D2 Output](Screenshot/TASK%20D2.png)
 
 
-### TASK NOTES
+## TASK NOTES
 
 ### Task A – Creating a Single Child
 - create_basic.c launches child_echo.exe using CreateProcess().
