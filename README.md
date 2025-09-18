@@ -1,13 +1,13 @@
 # OS_LA1_ProcessMgmt_Udto
 
-## 🛠️ Build Instructions (VS Code with MinGW)
+## 🛠️ BUILD INSTRUCTIONS (VS Code with MinGW)
 
 ### Prerequisites
 - Visual Studio Code installed
 - MinGW installed and added to your system PATH
 - Project folder structure:
 
-
+### SCREENSHOTS
 
 
 
